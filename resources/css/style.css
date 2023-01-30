@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Heebo", sans-serif;
+}
+body {
+	overflow-x: hidden;
+    font-family: "Heebo", sans-serif;
+	background-color: black;
+}
+.card{
+	background-color: #1a1a1a;
+}
+.c-arousel{
+   position:fixed;
+    z-index: -99; 
+}
+.data{
+	color:white;
+}
+.navbar-default{
+transition:500ms ease;
+background:trandsparent;
+color: white;
+}
+.navbar-default.scrolled{
+background: black;
+}
+.nav-link{
+	color:white;
+}
+.footer {
+	margin-top: 5%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+  }
+a{
+    color: #fff;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.popup-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.3);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 17, 17, 0.61);
+    display: flex;
+    align-items: center;
+}
+.popup-content {
+    background-color: #333;
+    margin: auto;
+    padding: 20px;
+	color: white;
+    width: 50%;
+}
+.popup-content p{
+    font-size: 17px;
+    padding: 10px;
+    line-height: 20px;
+}
+.popup-content a.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+}
+
+.popup-content a.close:hover{
+  color:#333;
+}
+
+.popup-content span:hover,
+.popup-content span:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup-container:target{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-container h3{
+  margin:10px;
+}

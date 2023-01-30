@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lets Watch</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
+        <link rel="stylesheet" href="./resources/css/style.css">   
+        <script type="text/javascript" src="./resources/js/function.js"></script>
+
+    </head>
+    <body>  
+        <!-- nav bar   -->
+        <nav class="navbar navbar-default  navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Lets watch<span style="color: #f4c518;font-weight: 100"> ❯</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Trending">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Popular">Popular</a>
+                </li>   
+                </ul>
+        </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner" style="margin-top: -2%;">         
+            <div class="carousel-item active">
+                <figure>
+                    <img src="./resources/images/RRR.jpg"  alt ="rrr" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1 class="animated bounceInRight" style="animation-delay:1s">RRR  </h1>
+                        <h3>2022. 3hr 7min. Action/Adventure</h3>
+                        <p>RRR is a 2022 Indian Telugu-language epic action drama film directed by S. S. Rajamouli, who co-wrote the film with V. Vijayendra Prasad..</p>
+                      </div>
+                </figure>
+                
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/images/Drishyam-2.png" alt="drishyam" class="d-block" style="width:100%" >
+            </div>
+            <div class="carousel-item"> 
+                <img src="./resources/images/pathaan.jpg" alt="pathaan" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/images/avatar.jpg" alt="avatar" class="d-block" style="width:100%">
+            </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>   
+        </div>
+
+        <div class="data">
+            <div id ="Trending" class=" container-fluid p-5 ">
+                <h2 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Trending today<span style="color: #f4c518;font-weight: 100"> ❯</span></h2>
+                <h5 style="color:white;font-weight: normal;">TV shows and movies just for you</h5>
+                <div class="row mt-5">
+                    <div class="m-4 p-0 col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/pathanimdb.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                        <p class="card-text"><span>⭐7.0</span></p>
+                        <a href="#Pathaan" ><h5 class="card-title">Pathaan</h5></a>
+                            <a class="btn btn-primary"  href="https://www.youtube.com/watch?v=vqu4z34wENw"  style="width:100%" >▶ Trailer</a>
+                        </div>
+                    </div>
+                    <div class="m-4  p-0 col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/themenu.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐7.2</span></p>
+                        <a href="#The-Menu" ><h5 class="card-title">The Menu</h5></a>
+                         <div>   
+                            <a class="btn btn-primary" href="https://www.youtube.com/watch?v=C_uTkUGcHv4" style="width:100%" role="button">▶ Trailer</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/last-of-us-tv-1.webp" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐9.3</span></p>
+                        <a href="#The-Last-of-Us" ><h5 class="card-title">The Last of Us</h5></a>
+                        <div>
+                        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=7ddBifCzUl8" style="width:100%" role="button">▶ Trailer</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-4  p-0 col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/avatar.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐7.8</span></p>
+                        <a href="#Avatar-2" ><h5 class="card-title">Avatar 2</h5></a>
+                        <div> 
+                        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=d9MyW72ELq0" style="width:100%" role="button">▶ Trailer</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/mission.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐7.9</span></p>
+                        <a href="#Mission-Majnu" ><h5 class="card-title">Mission Majnu</h5></a>
+                        <div>
+                        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=Gw77Nx4eBMc" style="width:100%" role="button">▶ Trailer</a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                
+            </div>
+                
+            </div>
+            <div id = "Popular" class="Popular container-fluid p-5">
+                <h2 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Most Popular<span style="color: #f4c518;font-weight: 100"> ❯</span></h2>
+                <h5 style="color:white;font-weight: normal;">This week's top TV and movies</h5>    
+                <div class="row">
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/Friends.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐8.9</span></p>
+                        <a href="#FRIENDS" ><h5 class="card-title">FRIENDS</h5></a>
+                        <div>
+                        <a class="btn btn-primary" href="https://www.netflix.com/watch/70274119?source=imdb" style="width:100%" role="button">▶ Watch options</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/drishyam 2.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐8.3</span></p>
+                        <a href="#Drishyam-2" ><h5 class="card-title">Drishyam 2</h5></a>
+                        <p class="card-text">
+                            <a class="btn btn-primary" href="https://www.primevideo.com/detail/amzn1.dv.gti.2a67b1bd-15a9-414c-97e9-8ccb8380eff4" style="width:100%" role="button">▶ Watch options</a></p>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/sitaramam.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐8.6</span></p>
+                        <a href="#Sita-Ramam" ><h5 class="card-title">Sita-Ramam</h5></a>
+                        <p class="card-text">
+                         
+                            <a class="btn btn-primary" href="https://www.primevideo.com/detail/amzn1.dv.gti.0f68d95c-fc37-4a3a-b08a-f567c022a2d8" style="width:100%" role="button">▶ Watch options</a></p>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/crashlan.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐8.7</span></p>    
+                        <a href="#Crash-Landing-on-You" ><h5 class="card-title">Crash Landing on You</h5></a>  
+                        <p class="card-text">
+                            <a class="btn btn-primary" href="https://www.netflix.com/watch/81205759?source=imdb" style="width:100%" role="button">▶ Watch options</a></p>
+                        </div>
+                    </div>
+                    <div class="m-4 p-0  col card flex-column ">
+                        <img class="card-img-top" src="./resources/images/pursuit.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body ">
+                        <p class="card-text"><span>⭐8.0</span></p>
+                        <a href="#The-Pursuit-of-Happyness" ><h5 class="card-title">The Pursuit of Happyness</h5></a>
+                        <p class="card-text">
+                            <a class="btn btn-primary" href="https://www.zee5.com/movies/details/the-pursuit-of-happyness/0-0-1z5238327" style="width:100%" role="button">▶ Watch options</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!--popup-->
+        <div id="Drishyam-2" class="popup-container">
+            <div class="popup-content">
+            <a href="#Popular" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Drishyam 2<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2015 2h 43min Not Rated</p>
+            <p>Crime Drama Mystery</p>
+            <p>Desperate measures are taken by a man who tries to save his family from the dark side of the law, after they commit an unexpected crime.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="FRIENDS" class="popup-container">
+            <div class="popup-content">
+            <a href="#Popular" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>FRIENDS<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>TV Series 1994–2004 TV-14 22m</p>
+            <p>Comedy</p>
+            <p>Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City.
+            </p></div>
+        </div>
+
+        <!--popup-->
+        <div id="The-Pursuit-of-Happyness" class="popup-container">
+            <div class="popup-content">
+            <a href="#Popular" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>The Pursuit of Happyness<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2006 PG-13 1h 57m</p>
+            <p>Biography Drama</p>
+            <p>A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="Sita-Ramam" class="popup-container">
+            <div class="popup-content">
+            <a href="#Popular" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Sita Ramam<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2022 2h 43m</p>
+            <p>Action Drama Mystery</p>
+            <p>An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="Crash-Landing-on-You" class="popup-container">
+            <div class="popup-content">
+            <a href="#Popular" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Crash Landing on You<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>TV Series 2019–2020 TV-14 1h 10m</p>
+            <p>Adventure Comedy Romance</p>
+            <p>The absolute top secret love story of a chaebol heiress who made an emergency landing in North Korea because of a paragliding accident and a North Korean special officer who falls in love with her and who is hiding and protecting her.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="The-Last-of-Us" class="popup-container">
+            <div class="popup-content">
+            <a href="#Trending" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>The Last of Us<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>TV Series 2023– TV-MA 50m</p>
+            <p>Action Drama Adventure</p>
+            <p>After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="Pathaan" class="popup-container">
+            <div class="popup-content">
+            <a href="#Trending" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Pathaan<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2023 Not Rated 2h 26m</p>
+            <p>Action Drama Thriller</p>
+            <p>An Indian spy takes on the leader of a group of mercenaries who have nefarious plans to target his homeland.
+            </p></div>
+        </div>
+
+        <!--popup-->
+        <div id="The-Menu" class="popup-container">
+            <div class="popup-content">
+            <a href="#Trending" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>The Menu<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2022 R 1h 47m</p>
+            <p>Comedy Horror Thriller</p>
+            <p>A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="Avatar-2" class="popup-container">
+            <div class="popup-content">
+            <a href="#Trending" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Avatar: The Way of Water<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2022 PG-13 3h 12m</p>
+            <p>Action Adventure Fantasy</p>
+            <p>Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p></div>
+        </div>
+
+        <!--popup-->
+        <div id="Mission-Majnu" class="popup-container">
+            <div class="popup-content">
+            <a href="#Trending" class="close">&times;</a>
+            <h3 style="color:white;font-weight: normal;"><span style="color: #f4c518;font-weight: bold">| </span>Mission Majnu<span style="color: #f4c518;font-weight: 100"> ❯</span></h3>
+            <p>2023 TV-MA 2h 9m</p>
+            <p>Adventure Action History</p>
+            <p>In the 1970s, an undercover Indian spy takes on a deadly mission to expose a covert nuclear weapons program in the heart of Pakistan.</p></div>
+        </div>
+
+
+      
+        <div class="footer">
+            <p>Let's watch Made with ♥   </p>
+        </div>   
+    </body>
+</html>
